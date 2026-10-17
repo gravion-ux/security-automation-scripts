@@ -1,0 +1,33 @@
+{
+  "name": "security-automation-scripts",
+  "version": "1.0.0",
+  "description": "Small, dependency-light Node.js and Bash utilities for security automation: HTTP header analysis, TLS configuration check, and a log normalizer for SIEM pipelines.",
+  "main": "src/index.js",
+  "bin": {
+    "sec-auto": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/headers.test.js test/tls.test.js test/log-normalizer.test.js test/cli.test.js",
+    "demo": "node src/cli.js demo"
+  },
+  "keywords": [
+    "security",
+    "headers",
+    "tls",
+    "log",
+    "automation",
+    "siem"
+  ],
+  "author": "Priyanshu Kumar Thakur",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "test/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
+  ]
+}
