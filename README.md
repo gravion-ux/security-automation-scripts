@@ -1,5 +1,9 @@
 # security-automation-scripts
 
+![Demo](docs/demo.png)
+
+*Demo: the automation checks running locally against sample targets.*
+
 A small, dependency-light toolkit of security automation utilities. Each
 module is self-contained, can be imported individually, and is covered
 by an automated test suite.
